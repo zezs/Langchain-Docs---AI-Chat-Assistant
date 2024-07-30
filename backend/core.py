@@ -36,7 +36,7 @@ def run_llm(query: str):
 
 
 if __name__=="__main__":
-    result = run_llm(query="What is Langchain Chain?")
+    result = run_llm(query="What is Photosynthesis?")
     print(result["answer"])
     
 
