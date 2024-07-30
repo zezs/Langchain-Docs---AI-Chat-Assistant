@@ -2,7 +2,8 @@
 
 This repository is dedicated to learning LangChain by creating a generative AI application. This web application uses Pinecone as a vector store to answer questions related to LangChain, utilizing sources from the official LangChain documentation.
 
-![Logo](https://github.com/emarco177/documentation-helper/blob/main/static/banner.gif)
+![Logo](https://github.com/zezs/Langchain-Docs---AI-Chat-Assistant/blob/main/backend/banner.gif)
+
 
 ## Technology Stack
 
