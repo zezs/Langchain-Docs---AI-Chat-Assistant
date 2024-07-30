@@ -31,13 +31,21 @@ def run_llm(query: str):
     # )
 
     result = retrival_chain.invoke(input={"input": query})
+
+    new_result = {
+        "query": result["input"],
+        "result": result["answer"],
+        "source_documents": result["context"],
+    }
     
-    return result
+    return new_result
 
 
 if __name__=="__main__":
-    result = run_llm(query="What is Photosynthesis?")
-    print(result["answer"])
+    res = run_llm(query="What are agents?")
+    print("\nQUERY: ", res["query"])
+    print("\nRESULT: ", res["result"])
+    print("\nSOURCE: ", res["source_documents"])
     
 
     
